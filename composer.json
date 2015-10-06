@@ -1,0 +1,19 @@
+{
+    "name": "pmovil/ipx-client",
+    "description": "IPX (Netsize) WebServices stubs",
+    "authors": [
+        {
+            "name": "Ivan Stoiev",
+            "email": "ivan@pmovil.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pmovil\\Ipx\\": "src/"
+        }
+    },
+    "require-dev": {
+        "wsdl2phpgenerator/wsdl2phpgenerator": "3.2.1",
+        "phpunit/phpunit": "4.3.*"
+    }
+}
